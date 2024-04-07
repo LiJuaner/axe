@@ -27,6 +27,13 @@
             <version>${spring-boot.version}</version>
             <scope>test</scope>
         </dependency>
+        <!--依赖本项目内其他Module-->
+        <dependency>
+            <groupId>com.hxy.lab</groupId>
+            <artifactId>axe-model</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
 </project>
