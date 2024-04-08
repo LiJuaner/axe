@@ -34,6 +34,19 @@
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
 
+        <!--MyBatis-Plus 适配SpringBoot3.0.x-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
+            <version>3.5.5</version>
+        </dependency>
+        <!--生成MyBatis文件-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+            <version>3.5.5</version>
+        </dependency>
+
     </dependencies>
 
 </project>
