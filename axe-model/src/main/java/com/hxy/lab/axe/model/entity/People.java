@@ -17,7 +17,7 @@ import io.swagger.v3.oas.annotations.media.Schema;
  * @since 2024-04-08
  */
 @TableName("people")
-@Schema(name = "People", description = "")
+@Schema(name = "People", description = "用户信息")
 public class People implements Serializable {
 
     private static final long serialVersionUID = 1L;
